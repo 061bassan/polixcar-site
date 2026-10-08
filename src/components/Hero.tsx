@@ -9,7 +9,7 @@ import { StarIcon } from "./StarIcon";
 import { WhatsAppIcon } from "./WhatsAppIcon";
 
 export function Hero() {
-  const words = useMemo(() => ["brilhando", "impecável", "renovado", "protegido"], []);
+  const words = useMemo(() => ["brilhando", "higienizado", "renovado", "protegido", "impecável"], []);
   const [wordIndex, setWordIndex] = useState(0);
 
   useEffect(() => {
@@ -43,8 +43,8 @@ export function Hero() {
           </a>
 
           <h1 className="text-balance font-display text-4xl font-semibold uppercase leading-[1.05] tracking-tight sm:text-5xl">
-            Seu carro sai daqui{" "}
-            <span className="relative inline-block h-[1.05em] w-[9.5ch] overflow-hidden align-bottom">
+            Seu carro{" "}
+            <span className="relative inline-block h-[1.05em] w-[11.5ch] overflow-hidden align-bottom">
               &nbsp;
               {words.map((word, index) => (
                 <motion.span
@@ -65,9 +65,13 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-lg text-base text-steel-200 sm:text-lg">
-            Lavamos, polimos e protegemos seu carro com o cuidado que a
-            pintura, os faróis e o interior merecem, aqui no Lago Sul e no
-            Jardim Botânico, Brasília.
+            Lavagem detalhada, polimento e vitrificação de pintura,
+            higienização interna, revitalização de faróis e lavagem de motor.
+            Todos os cuidados que o seu veículo merece!
+          </p>
+          <p className="mt-3 max-w-lg text-sm text-steel-300 sm:text-base">
+            Estamos localizados no Jardim Botânico, mas atendemos todo o
+            Distrito Federal.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">

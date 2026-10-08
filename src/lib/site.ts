@@ -54,9 +54,9 @@ export const serviceCategories: ServiceCategory[] = [
     items: [
       {
         slug: "lavagem-completa",
-        name: "Lavagem Detalhada",
+        name: "Lavagem detalhada",
         description:
-          "Lavamos por fora e por dentro, com pano e produto certos pra cada parte, sem reaproveitar nada de uma etapa pra outra.",
+          "Limpeza externa e interna com produtos e equipamentos profissionais para cada detalhe, com o foco na qualidade.",
       },
       {
         slug: "descontaminacao",
@@ -67,29 +67,31 @@ export const serviceCategories: ServiceCategory[] = [
       {
         slug: "lavagem-motor",
         name: "Lavagem de motor",
-        description: "Limpamos o motor com cuidado, protegendo conectores e as partes elétricas mais sensíveis.",
+        description:
+          "Limpamos o motor com cuidado, protegendo as borrachas e partes metálicas com aplicação de verniz para proteção.",
       },
     ],
   },
   {
-    category: "Estética de pintura",
+    category: "Polimento e Vitrificação",
     items: [
       {
         slug: "polimento",
         name: "Polimento técnico",
         description:
-          "Corrigimos a pintura por etapas, tirando holograma, riscos finos e oxidação até o brilho voltar com profundidade de verdade.",
+          "Serviço de correção de pintura, tem objetivo de remover o máximo de riscos, marcas e manchas que a pintura permitir, devolvendo a vida e o brilho da pintura.",
       },
       {
         slug: "vitrificacao",
         name: "Vitrificação de pintura",
         description:
-          "Uma proteção que dura bem mais que cera comum, facilita a limpeza do dia a dia e segura o brilho por muito mais tempo.",
+          "Aplicação de coating cerâmico para proteção e brilho da pintura por até 5 anos. Protege a pintura de raios UV e facilita o processo de lavagem, pois não deixa a sujeira ancorar na pintura.",
       },
       {
         slug: "enceramento",
-        name: "Enceramento na máquina",
-        description: "Cera aplicada na máquina, de forma uniforme, pra um acabamento caprichado sem pesar tanto no bolso.",
+        name: "Enceramento técnico",
+        description:
+          "Aplicação de cera limpadora com a utilização de politriz, excelente custo benefício para o cliente que busca renovar o brilho do veículo com um investimento de baixo custo.",
       },
     ],
   },

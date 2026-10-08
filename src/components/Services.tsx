@@ -23,7 +23,7 @@ import { useFormSelection } from "@/lib/form-selection";
 
 const categoryIcons: Record<string, LucideIcon> = {
   "Lavagem & Descontaminação": Droplets,
-  "Estética de pintura": Sparkles,
+  "Polimento e Vitrificação": Sparkles,
   "Interior & Conforto": Armchair,
   "Faróis & Vidros": Lightbulb,
   Motos: Bike,
